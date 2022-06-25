@@ -16,7 +16,6 @@ class HoldingCard extends StatelessWidget {
     return Padding(
       padding: const EdgeInsets.only(left: 16.0, right: 16, top: 16),
       child: Container(
-        height: 142,
         decoration: BoxDecoration(
             backgroundBlendMode: BlendMode.srcOver,
             borderRadius: BorderRadius.circular(16),

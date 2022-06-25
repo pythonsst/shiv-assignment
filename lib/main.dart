@@ -138,7 +138,7 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0.0,
-          toolbarHeight: 70,
+          toolbarHeight: 70 + 1,
           title: Text(_title),
           centerTitle: true,
           flexibleSpace: Container(
@@ -322,7 +322,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                 SizedBox(
-                  height: 80,
+                  height: 90,
                   child: ListView.builder(
                     scrollDirection: Axis.horizontal,
                     itemBuilder: (_, index) {
